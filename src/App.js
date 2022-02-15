@@ -10,14 +10,20 @@ import Home from './mycomponents/home';
 function App() {
   return (
     <div>
+      
       <BrowserRouter>
       <Header></Header>
+
+     
       <Mid> 
         {/* <label> Hello world</label> */}
+        
       </Mid>
-      <Home></Home>
+     
       
       </BrowserRouter>
+      <Home></Home>
+     
       <Footer></Footer>
     </div>
     
