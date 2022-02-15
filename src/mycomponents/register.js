@@ -20,49 +20,54 @@ import axios from "axios";
          .catch()
      }
      return(
-         <div className="row">
-             <div className="container">
+         <div className="row ">
+             <div className="container ">
                  <div className="col-md-4">
 
-                     <form className="form-group">
+                     <form className="form-group registerform">
                          <h1 className="reghed" >Registration</h1> 
                          <br/>
-                         <div className="form-group">
+                         <div className="form-group registertext" >
 
                          <label>Username</label>
-                         <input type="text" className='form-control' placeholder="Enter Customer name"
+                         <input type="text" className='form-control registertextbox' placeholder="Enter Customer Name"
                          value={username}
                          onChange={(e)=> setusername(e.target.value)}
                          />
                          </div>
                          <br/>
 
-                         <div className="form-group">
-                        <label>password</label>
-                        <input type="password" className='form-control'placeholder="Enter Password"
+                         <div className="form-group registertext">
+                        <label>Password</label>
+                        <input type="password" className='form-control registertextbox'placeholder="Enter Password"
                             value={password}
                             onChange={(e)=> setpassword(e.target.value)}
                                     />
                                     </div>
                                     <br/>
-                            <div className="form-group">
-                         <label>address</label>
-                         <input type="text" className='form-control'placeholder="Enter Address"
+                            <div className="form-group registertext">
+                         <label>Address</label>
+                         <input type="text" className='form-control registertextbox'placeholder="Enter Address"
                          value={address}
                          onChange={(e)=> setaddress(e.target.value)}
                          />
                          </div>
                          <br/>
 
-                         <div className="form-group">
-                            <label>phone</label>
-                        <input type="text" className='form-control' placeholder="Enter Phone Number"
+                         <div className="form-group registertext">
+                            <label>Phone</label>
+                        <input type="text" className='form-control registertextbox' placeholder="Enter Phone Number"
                         value={phone}
                         onChange={(e)=> setphone(e.target.value)}
                         /> 
                         </div>
                         <br/>
-            <button type="Submit" class ="btn btn-primary" onClick={customerRegister}>Submit</button>
+                        <br/>
+                        <div className="registerbot">
+
+                        <button type="Submit" class ="btn btn-primary " onClick={customerRegister}>Submit</button>                            
+                        </div>
+            
                      </form>
                  </div>  
                  {msg}          
