@@ -36,3 +36,156 @@
     transform: rotate(360deg);
   }
 }
+
+.backimage{
+  background: burlywood;
+ 
+
+}
+
+.hometop{
+  font-family: 'lucida grande', tahoma, verdana, arial, sans-serif;
+  font-size: 50px;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh ;
+  font-family:cursive;
+  text-decoration: wavy;
+ text-align: center;
+}
+.arrowdown{
+color: #282c34;
+font-size: 4rem;
+
+}
+
+
+.logintext{
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: medium;
+  font-variant: unset;
+}
+
+.footerone{
+  background: transparent;
+  
+  position:unset;
+  bottom: 0;
+  left: o;
+  right: 0;
+  width:100vw;
+  height: auto;
+  padding-top: 40px;
+}
+
+.footertwo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.footercolumn{
+  
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 50px;
+
+}
+
+.footerrow{
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(185px, 1fr));
+  grid-gap: 10px;
+  @media (max-width: 1000px) {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+.footerflink{
+  color: black;
+  margin-bottom: 5px;
+  font-size: 12px;
+  text-decoration: none;
+}
+.footerheading{
+  font-size: 18px;
+  color: black;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.reghed{
+  color: olive;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+
+}
+
+.texthead{
+  font-weight: bolder;
+  text-shadow: peru;
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.addsupp{
+  background-color: #61dafb;
+}
+
+.fitcolor{
+  color: yellow;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containerone{
+  @include size(400px, auto);
+  @include flex(center, center, column);
+  
+  margin: 10 auto;
+  background-color: white;
+
+border-color: aqua;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  background-color: transparent;
+
+
+}
+
+.firstblock{
+  background-color: aqua;
+  border: 5em;
+  margin-left: 5rem;
+}
+.secondblock{
+  background-color: blue;
+  background-position: center;
+  align-items: center;
+  margin-left: 50em;
+  margin-bottom: 60em;
+  display: inline-block;
+}
+
+
+
+.e-card-image {
+  background: url('./logo.svg');
+  height: 160px;
+  padding: top 50px;;
+  border: 10rem;
+  ;
+  
+}
+
+.e-card {
+  width: 200px;
+  margin: auto;
+  color: #61dafb;
+}
