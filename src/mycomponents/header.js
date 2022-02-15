@@ -18,7 +18,7 @@ render(){
   if(localStorage.getItem('token')){
 
     menu=(
-      <Navbar bg="black" varient={"dark"} expand="lg">
+      <Navbar bg="grey" varient={"dark"} expand="lg">
   <Container className="texthead">
     <Navbar.Brand href="/" className="fitcolor">FIT-NESS</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
