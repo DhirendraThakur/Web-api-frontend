@@ -32,34 +32,36 @@ const Login =()=>{
     }
     return(
         
-        <div className="backimage">
-        <div className="container" >
+        
+        <div className="container " >
             <div className="row">
                 <div className="col-md-6">
-
+                
                 </div>
                 <div className="col-md-6">
                     {message}
                     <br/>
-                    <form action="" align="center">
-                        <div className="form-group">
-                            <label className="logintext">Username</label>
-                            <input type= "text" className="form-contro;"
+                    <form action="" align="left"  className ="loginform" >
+                    <h1 className="loginnext" >LOGIN</h1>
+                        <div className="form-group logintext" >
+                            <label className="">Username:</label>
+                            <input type= "text" className="form-control logintextbox"
                             value={username}
                             onChange={(e)=>setUsername(e.target.value)}/>
                             
                         </div>
                         <br/>
 
-                        <div className="form-group">
-                            <label className="logintext">password</label>
-                            <input type= "password" className="form-contro;"
+                        <div className="form-group logintext">
+                            <label className="">password:</label>
+                            <input type= "password" className="form-control logintextbox"
                             value={password}
                             onChange={(e)=>setPassword(e.target.value)}/>
                             
                         </div>
                         <br/>
-                        <div className="form-group">
+                        <br/>
+                        <div className="form-group loginbot">
                             <input type ="Submit" className="btn btn-success"
                             onClick={customerLogin}
                             />
@@ -72,7 +74,7 @@ const Login =()=>{
                 </div>
             </div>
         </div>
-        </div>
+        
         
     )
 }
