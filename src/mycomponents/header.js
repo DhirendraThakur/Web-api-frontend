@@ -13,6 +13,9 @@ render(){
     localStorage.clear();
     window.location.replace('/customer/login');
   }
+  const feedback=()=>{
+    window.location.replace('/Feedback');
+  }
 
   var menu;
   if(localStorage.getItem('token')){
@@ -30,9 +33,9 @@ render(){
         <NavDropdown title="Supplement" id="basic-nav-dropdown">
           <NavDropdown.Item href="/Addsupplement">Addsupplement</NavDropdown.Item>
           <NavDropdown.Item href="/showsupplement">Showsupp</NavDropdown.Item>
-          <NavDropdown.Item href="/updatesupplement">UpdateSupplement</NavDropdown.Item>
+          
           <NavDropdown.Divider />
-          <NavDropdown.Item href="#action/3.4">Separated link</NavDropdown.Item>
+         
         </NavDropdown>
         <NavDropdown title="Product" id="basic-nav-dropdown">
           <NavDropdown.Item href="/addproduct">addproduct</NavDropdown.Item>
@@ -47,7 +50,7 @@ render(){
     </NavDropdown>
 
     <li class="nav-item active">
-        <button onClick={logout}>Log out</button>
+        <button className="logoutbot" onClick={logout}>Log out</button>
       </li>
       </Nav>
 
@@ -59,6 +62,7 @@ render(){
           aria-label="Search"
         />
         <Button variant="outline-success">Search</Button>
+       <Button onClick={feedback}>Feedback</Button>
       </Form>
     </Navbar.Collapse>
   </Container>
