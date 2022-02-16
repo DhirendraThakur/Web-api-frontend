@@ -30,8 +30,8 @@ const UpdateSupplement =()=>{
         })
         .catch (e=>{
 
-        },[])
-    },)
+        },)
+    },[])
 
     //to update supplement
     const updatesupplements =(e)=>{
