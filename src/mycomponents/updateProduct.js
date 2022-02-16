@@ -25,8 +25,8 @@ const UpdateProduct =()=>{
         })
         .catch (e=>{
 
-        },[])
-    })
+        })
+    },[])
 
     //to update product
     const productupdate =(e)=>{
