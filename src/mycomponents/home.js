@@ -4,7 +4,7 @@ import { Component } from "react";
 import { Card, Button } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 {/* git push -u origin main */}
-import SimpleImageSlider from "react-simple-image-slider";
+//import SimpleImageSlider from "react-simple-image-slider";
 
            
 
