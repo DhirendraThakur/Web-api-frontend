@@ -6,15 +6,17 @@ import Mid from './mycomponents/mid';
 //import Home from './mycomponents/home';
 import Footer from './mycomponents/footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Home from './mycomponents/home';
+//import Home from './mycomponents/home';
 function App() {
   return (
+    
+    
     <div>
       
       <BrowserRouter>
       <Header></Header>
 
-     
+      
       <Mid> 
         {/* <label> Hello world</label> */}
         
@@ -22,7 +24,7 @@ function App() {
      
       
       </BrowserRouter>
-      <Home></Home>
+      
      
       <Footer></Footer>
     </div>
