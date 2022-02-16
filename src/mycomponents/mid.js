@@ -15,6 +15,7 @@ import ShowProduct from "./showproduct";
 
 //import {Route, Routes} from 'react-router-dom';
 import {Route, Routes } from "react-router-dom";
+import UpdateProduct from "./updateProduct";
 
 class Mid extends Component{
     render(){
@@ -30,6 +31,7 @@ class Mid extends Component{
                 <Route path ='/showsupplement' element ={<Showsupp/>}/>   
                 <Route path ='/addproduct' element={<Addproduct/>}/>   
                 <Route path="/showproduct" element={<ShowProduct/>}/>
+                <Route path="/updateproduct/:pid" element ={<UpdateProduct/>}/>
                 </Routes>
 
             </div>
