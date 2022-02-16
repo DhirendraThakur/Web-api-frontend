@@ -33,7 +33,7 @@ const Showsupp =()=> {
     {
         sdata.map(singleData=>{
             return(
-                <div className="col-md-4">
+                <div className="col-md-4 showsupplementbox">
                     <h2>Supplement Name : {singleData.supplementname}</h2>
                     <p className="Supplementrate"> Supplement rate: {singleData.supplementrate} </p>
                     <p> Product type: {singleData.supplementtype}</p>
