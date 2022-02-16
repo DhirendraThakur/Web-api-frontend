@@ -22,15 +22,13 @@ class Footer extends Component{
         <div className="footercolumn">
             <div className="footerheading"> Adds</div>
             <div className="footerflink"> Online Games</div>
-            <div className="footerflink"> Digital Marketing</div>
-            <div className="footerflink"> Online Jobs</div>
+           
         </div>
 
         <div className="footercolumn">
             <div className="footerheading"> Shops</div>
             <div className="footerflink"> Buy Supplement</div>
-            <div className="footerflink"> Buy Cloths</div>
-            <div className="footerflink"> Buy GYM gears</div>
+           
         </div>
 
         
@@ -45,17 +43,7 @@ class Footer extends Component{
             
             </div>
 
-            <div className="footerflink"> 
-            <i className='fab fa-instagram'>
-                <span style={{ marginLeft: '10px' }}>Instagram</span>
-              </i>
-            </div>
-            <div className="footerflink"> 
-            <i className='fab fa-twitter'>
-                <span style={{ marginLeft: '10px' }}>Twitter</span>
-              </i>
-            
-            </div>
+           
         </div>
     </div>
 
