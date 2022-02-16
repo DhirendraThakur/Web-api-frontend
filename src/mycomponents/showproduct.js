@@ -34,7 +34,7 @@ const ShowProduct =()=>{
                 {
                     prodata.map(singleData=>{
                         return(
-                            <div className="col-md-4">
+                            <div className="col-md-4 showproductbox">
                                 <h2>Product Name: {singleData.productname}</h2>
                                 <p><img src={'http://localhost:90/'+singleData.pimage} className="img-fluid"/></p>
                                 <p> Product Price: {singleData.productprice}</p>
