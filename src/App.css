@@ -258,3 +258,88 @@ text-decoration-color: chocolate;
   align-items: center;
   text-align: center;
 }
+
+.supplementaddform{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:grey;
+  margin: 6px 0;
+  margin-left: -20px;
+  border-radius: 8px;
+  border-bottom-color: aqua;
+  border-style: double;
+  border-color: chartreuse;
+}
+.supplementaddtext{
+  text-align: center;
+  align-items: center;
+  font-family: cursive;
+  font-weight: bold;
+}
+.supplementbot{
+  align-items: center;
+  text-align: center;
+}
+.showsupplementbox{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:darkkhaki;
+ 
+  border-radius: 8px;
+  
+  border-style: double;
+  border-color: chartreuse;
+
+}
+.showproductbox{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:darkkhaki;
+ 
+  border-radius: 8px;
+  border-top-style: groove;
+  border-style: double;
+  border-color: chartreuse;
+
+}
+.updatesupplementleft{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:darkkhaki;
+ 
+  border-radius: 8px;
+  border-top-style: groove;
+  border-style: double;
+  border-color: chartreuse;
+
+}
+
+.updatesuppright{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:grey;
+  margin: 6px 0;
+  margin-left: 20px;
+  border-radius: 8px;
+  border-bottom-color: aqua;
+  border-style: double;
+  border-color: chartreuse;
+
+}
+.updatesup{
+  text-align: center;
+  text-decoration: double;
+  text-decoration: underline;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.updatesuptext{
+  text-align: center;
+  font-weight: bold;
+  align-items: center;
+
+}
