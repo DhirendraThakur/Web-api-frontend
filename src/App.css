@@ -39,6 +39,7 @@
 
 .backimage{
   background: burlywood;
+  
  
 
 }
@@ -342,4 +343,40 @@ text-decoration-color: chocolate;
   font-weight: bold;
   align-items: center;
 
+}
+.logoutbot{
+  cursor: alias;
+  border-radius: 3rem;
+  background-color: red;
+}
+
+.feedmsg{
+  font-family: cursive;
+  color: blue;
+  text-decoration: solid;
+  text-shadow: #61dafb;
+}
+.feedbackform{
+  width: 80%;
+  box-sizing:border-box;
+  border: 3px solid #ccc;
+  background-color:greenyellow;
+  margin: 6px 0;
+  margin-left: 500px;
+  border-radius: 8px;
+  border-bottom-color: aqua;
+  border-style: double;
+  border-color: chartreuse;
+
+}
+/* background-image: url('./image/panda.jpg'); */
+
+.homesecond{
+  margin-top: 10rem;
+ 
+  border: 3px solid #ccc;
+  margin-left: 80px;
+}
+.homethird{
+  margin-left: 80px;
 }
