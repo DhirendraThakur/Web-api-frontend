@@ -57,26 +57,26 @@ console.log(resultsup.data)
 <div className="container">
     <div className="row">
         <div className="col-md-6"></div>
-        <div className="col-md-6">
+        <div className="col-md-6 ">
             <h2>Add Supplement</h2>
             <p>{message}</p>
-            <form>
-            <div className="form-group">
-                            <label>Supplement Name</label>
+            <form className="supplementaddform">
+            <div className="form-group supplementaddtext"  >
+                            <label>Supplement Name:</label>
                             <input type="text" className="form-control"
                             value={supplementname}
                             onChange={e=>{setSupplementname(e.target.value)}}
                             />
                         </div>
 
-                        <div className="form-group">
-                            <label>Supplement Type</label>
+                        <div className="form-group supplementaddtext">
+                            <label>Supplement Type:</label>
                             <input type="text" className="form-control"
                             value={supplementtype}
                             onChange={e=>{setSuppltmenttype(e.target.value)}}
                             />
                         </div>        
-                        <div className="form-group">
+                        <div className="form-group supplementaddtext">
                             <label>Supplement Rate</label>
                             <input type="text" className="form-control"
                             value={supplementrate}
@@ -84,14 +84,14 @@ console.log(resultsup.data)
                             />
                         </div>  
 
-                        <div className="form-group">
+                        <div className="form-group supplementaddtext">
                         <label>Supplement Image</label>
                         <input type='file' className="form-control"
                         onChange={e=>setSupimage(e.target.files[0])}/>
 
                         </div>
                         <br/>  
-                        <p><input type='Submit' className="btn btn-success" onClick={addSupplement} /></p>
+                        <p className="supplementbot"><input type='Submit' className="btn btn-success" onClick={addSupplement} /></p>
             </form>
 
         </div>
