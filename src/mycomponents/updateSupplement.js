@@ -48,29 +48,29 @@ const UpdateSupplement =()=>{
            
 
             <div className="row">
-                <div className="col-md-6">
+                <div className="col-md-6 updatesupplementleft">
                     <h2>{mysupplement.supplementname}</h2>
                     <p>Supplement rate: {mysupplement.supplementrate}</p>
                     <p>Supplement type : {mysupplement.supplementtype}</p>
                 </div>
 
                 <div className=" col-md-6">
-                    <h2>Supplement Upadate</h2>
-                    <form>
+                    <h2 className="updatesup">Supplement Upadate</h2>
+                    <form className="updatesuppright">
                         <div className="form-group">
-                            <label>Supplement Name</label>
+                            <label className="updatesuptext">Supplement Name:</label>
                             <input type="text" className="form-control"
                             value={supplementname}
                             onChange={e=>{setSupplementname(e.target.value)}}
                             />
 
-                            <label>Supplement Rate</label>
+                            <label>Supplement Rate:</label>
                             <input type="text" className="form-control"
                             value={supplementrate}
                             onChange={e=>{setSupplmentrate(e.target.value)}}
                             />
 
-                            <label>Supplement Type</label>
+                            <label>Supplement Type:</label>
                             <input type="text" className="form-control"
                             value={supplementtype}
                             onChange={e=>{setSupplementtype(e.target.value)}}
