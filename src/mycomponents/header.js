@@ -21,8 +21,8 @@ render(){
   if(localStorage.getItem('token')){
 
     menu=(
-      <Navbar bg="grey" varient={"dark"} expand="lg">
-  <Container className="texthead">
+      <Navbar bg="grey" varient={"dark"} expand="lg" className="texthead">
+  <Container >
     <Navbar.Brand href="/" className="fitcolor">FIT-NESS</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
@@ -30,6 +30,8 @@ render(){
         <Nav.Link href="/">Home</Nav.Link>
         <Nav.Link href="customer/register">register</Nav.Link>
         <Nav.Link href="customer/login">Login</Nav.Link>
+
+
         <NavDropdown title="Supplement" id="basic-nav-dropdown">
           <NavDropdown.Item href="/Addsupplement">Addsupplement</NavDropdown.Item>
           <NavDropdown.Item href="/showsupplement">Showsupp</NavDropdown.Item>
@@ -43,11 +45,20 @@ render(){
 
     </NavDropdown>
 
+
+
+
     <NavDropdown title="Workout" id="basic-nav-dropdown">
           <NavDropdown.Item href="/Addsupplement">Addsupplement</NavDropdown.Item>
           <NavDropdown.Item href="/showsupplement">Show supplement</NavDropdown.Item>
 
     </NavDropdown>
+    <NavDropdown title="View Profile" id="basic-nav-dropdown">
+           
+          <NavDropdown.Item href="/showprofile">showprofile</NavDropdown.Item>
+
+    </NavDropdown>
+
 
     <li class="nav-item active">
         <button className="logoutbot" onClick={logout}>Log out</button>
