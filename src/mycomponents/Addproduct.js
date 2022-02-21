@@ -40,8 +40,8 @@ const Addproduct=()=>{
     //html part is here
     
     return(
-        <div className="container">
-            <div className="row">
+        <div className="container probackground">
+            <div className="row probackground">
 
                 <div className="col-md-4"></div>
                 <div className="col-md-4">
