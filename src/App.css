@@ -465,3 +465,13 @@ text-decoration-color: chocolate;
 .dot.active {
   background: rgb(32, 32, 32);
 }
+.regbackground{
+background-image: url('./image/reg.png');
+
+}
+.subbackground{
+  background-image: url('./image/sup.jpg');
+}
+.probackground{
+  background-image: url('./image/pandaa.jpg');
+}
