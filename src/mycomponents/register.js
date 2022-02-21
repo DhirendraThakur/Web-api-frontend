@@ -20,8 +20,8 @@ import axios from "axios";
          .catch()
      }
      return(
-         <div className="row ">
-             <div className="container ">
+         <div className="row  ">
+             <div className="container regbackground">
                  <div className="col-md-4">
 
                      <form className="form-group registerform">
