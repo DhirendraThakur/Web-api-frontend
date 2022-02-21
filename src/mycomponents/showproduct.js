@@ -22,7 +22,7 @@ const ShowProduct =()=>{
     });
 
     const deleteProduct=(pid)=>{
-        axios.delete("http://localhost:90product/delete/"+pid, config)
+        axios.delete("http://localhost:90/product/delete/"+pid, config)
         .then(result=>{console.log(result.data)})
         .catch()
     }
