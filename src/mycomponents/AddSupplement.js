@@ -54,8 +54,8 @@ console.log(resultsup.data)
     }
 
     return(
-<div className="container">
-    <div className="row">
+<div className="container ">
+    <div className="row subbackground">
         <div className="col-md-6"></div>
         <div className="col-md-6 ">
             <h2>Add Supplement</h2>
